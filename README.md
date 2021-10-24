@@ -25,4 +25,4 @@
 
 **Путешествие по России**
 
-- [Ссылка на проект](https://github.com/kazankovstas/russian-travel)
+- [Ссылка на проект](https://kazankovstas.github.io/russian-travel/)
