@@ -7,6 +7,12 @@
   margin-right: 0;
 }
 
+@media screen and (max-width: 492px) {
+  .nav__link {
+    margin: 0 0 32px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .nav__link {
     margin: 0 0 32px;

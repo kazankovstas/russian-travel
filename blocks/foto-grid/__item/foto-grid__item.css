@@ -1,30 +1,8 @@
 .foto-grid__item {
-  max-width: 284px;
-  max-height: 213px;
+  max-width: 100%;
 }
 
 .foto-grid__item:hover {
   transform: scale(1.05);
   transition-duration: 1.5s;
-}
-
-@media screen and (max-width: 1024px) {
-  .foto-grid__item {
-    max-width: 300px;
-    max-height: 225px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .foto-grid__item {
-    max-width: 352px;
-    max-height: 264px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .foto-grid__item {
-    max-width: 288px;
-    max-height: 216px;
-  }
 }

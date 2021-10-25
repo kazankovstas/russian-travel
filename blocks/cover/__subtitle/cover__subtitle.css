@@ -2,6 +2,7 @@
   max-width: 360px;
   font-size: 18px;
   line-height: 1.2;
+  align-self: center;
   margin: 0 auto;
   padding: 0;
   text-align: center;
@@ -9,8 +10,15 @@
   position: relative;
 }
 
+@media screen and (max-width: 560px) {
+  .cover__subtitle {
+    font-size: 16px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .cover__subtitle {
+    max-width: 288px;
     font-size: 14px;
     line-height: 1.14;
   }
