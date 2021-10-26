@@ -1,17 +1,29 @@
 .place__website {
   grid-column: 2/2;
   grid-row: 1/2;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: flex-end; */
   align-self: end;
   list-style-type: none;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  max-width: max-content;
+}
+
+@media screen and (max-width: 684px) {
+  .place__website {
+    grid-column: 1/1;
+    grid-row: 2/3;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .place__website {
+    max-width: 288px;
+  }
 }
 
 @media screen and (max-width: 320px) {
   .place__website {
-    width: 288px;
-    margin: 0 auto;
+    margin-left: 16px;
   }
 }
