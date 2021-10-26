@@ -19,7 +19,8 @@
 @import url("../blocks/intro/__title/intro__title.css");
 @import url("../blocks/intro/__text/intro__text.css");
 @import url("../blocks/intro/__list/intro__list.css");
-@import url("../blocks/intro/__list/_termin/intro__list_termin.css");
+@import url("../blocks/intro/__item/intro__item.css");
+@import url("../blocks/intro/__item/_termin/intro__item_termin.css");
 /* foto-grid */
 @import url("../blocks/foto-grid/foto-grid.css");
 @import url("../blocks/foto-grid/__item/foto-grid__item.css");
