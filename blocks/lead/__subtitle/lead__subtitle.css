@@ -1,4 +1,6 @@
 .lead__subtitle {
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 400;
   width: 640px;
   font-size: 30px;
   line-height: 1.2;
