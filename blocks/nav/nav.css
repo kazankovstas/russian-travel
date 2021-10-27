@@ -1,8 +1,14 @@
 .nav {
   list-style-type: none;
-  margin: 0 0 24px;
+  margin: 0;
   padding: 0;
   display: flex;
+}
+
+@media screen and (max-width: 760px) {
+  .nav {
+    margin-bottom: 48px;
+  }
 }
 
 @media screen and (max-width: 492px) {
@@ -11,6 +17,5 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-bottom: 16px;
   }
 }
