@@ -11,7 +11,7 @@
   }
 }
 
-@media screen and (max-width: 492px) {
+@media screen and (max-width: 510px) {
   .nav {
     max-width: 95.5%;
     display: flex;

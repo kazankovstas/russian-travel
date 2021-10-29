@@ -1,6 +1,4 @@
 .link {
-  font-size: 16px;
-  line-height: 18px;
   text-decoration: none;
   color: white;
   padding: 0;
@@ -10,5 +8,5 @@
 }
 
 .link:hover {
-  opacity: 0.7;
+  opacity: 0.8;
 }

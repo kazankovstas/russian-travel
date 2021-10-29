@@ -2,8 +2,22 @@
   max-width: max-content;
   margin: 0;
   padding: 0;
+  align-self: center;
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
+}
+
+@media screen and (max-width: 320px) {
+  .footer__copyright {
+    line-height: 1;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .footer__copyright {
+    align-self: flex-start;
+    line-height: 1;
+  }
 }

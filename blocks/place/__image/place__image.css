@@ -6,30 +6,7 @@
 
 @media screen and (max-width: 760px) {
   .place__image {
-    max-width: 320px;
-    max-height: 320px;
-  }
-}
-
-@media screen and (max-width: 684px) {
-  .place__image {
-    max-width: 460px;
-    max-height: 460px;
     grid-column: 1/1;
     grid-row: 3/4;
-  }
-}
-
-@media screen and (max-width: 510px) {
-  .place__image {
-    max-width: 320px;
-    max-height: 320px;
-    margin-left: 16px;
-  }
-}
-
-@media screen and (max-width: 390px) {
-  .place__image {
-    margin: 0;
   }
 }

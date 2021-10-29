@@ -4,13 +4,19 @@
   padding-top: 28px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: end;
 }
 
 @media screen and (max-width: 1024px) {
   .header {
     max-width: 90.625%;
     margin: 0 auto 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    max-width: 93.75%;
   }
 }
 

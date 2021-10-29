@@ -3,8 +3,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(../fonts/Inter/Inter-Regular.woff2),
-    url("../fonts/Inter/Inter-Regular.woff");
+  src: url(Inter/Inter-Regular.woff2), url("Inter/Inter-Regular.woff");
 }
 
 @font-face {
@@ -12,8 +11,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(../fonts/Inter/Inter-Bold.woff2),
-    url("../fonts/Inter/Inter-Bold.woff");
+  src: url(Inter/Inter-Bold.woff2), url("Inter/Inter-Bold.woff");
 }
 
 @font-face {
@@ -21,6 +19,5 @@
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url(../fonts/Inter/Inter-Black.woff2),
-    url("../fonts/Inter/Inter-Black.woff");
+  src: url(Inter/Inter-Black.woff2), url("Inter/Inter-Black.woff");
 }
