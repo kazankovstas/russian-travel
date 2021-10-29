@@ -49,6 +49,7 @@
 @import url("../blocks/footer/__copyright/footer__copyright.css");
 /* nav */
 @import url("../blocks/nav/nav.css");
+@import url("../blocks/nav/__links/nav__links.css");
 @import url("../blocks/nav/__link/nav__link.css");
 /* link */
 @import url("../blocks/link/link.css");
